@@ -1,0 +1,27 @@
+.navContent{
+    justify-content: right;
+    padding: 20px;
+}
+.navContent a{
+    padding: 10px;
+    margin-right: 5px;
+    background-color: rgb(99, 159, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-decoration: none;
+    color: var(--grey)
+    
+}
+.active{
+   opacity: 0.75;
+}
+.navBar{
+    justify-content: space-between;
+    background-color: rgba(115, 15, 255, 0.663);
+}
+@supports(-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .navBar, span  {
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
+    }
+  }

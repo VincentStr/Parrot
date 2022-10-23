@@ -1,0 +1,26 @@
+.prog{
+    background-color: rgba(36, 36, 36, 0.666);
+    margin: 10px;
+    border-radius: 50px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.prog-container{
+    background-color: var(--dark-frosted);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    min-width: 200px;
+    text-align: center;
+    height: 150px;
+}
+.prog-container h1{
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+@supports(-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .prog-container {
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
+    }
+  }

@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html{
+    background-color:rgb(28, 10, 52);
+}
+
+:root {
+    --purple-1: #5b3c9e;
+    --light-purple: rgb(106, 98, 255);
+    --very-light-purple: rgb(161, 156, 255);
+    --grey: #EDEDED;
+    --dark-frosted: rgba(8, 8, 8, 0.5);
+    --shadow-light: rgba(255, 255, 255, 0.1);
+    --bold-Size : 500;
+}

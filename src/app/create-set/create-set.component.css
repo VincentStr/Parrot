@@ -1,0 +1,44 @@
+.title{
+    color: var(--grey);
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+    font-weight: var(--bold-Size);
+
+
+}
+.creation-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+
+
+.creation-item {
+    width: auto;
+    background-color: var(--light-purple);
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-field{
+    width: 100%;
+   border-radius: 16px;;
+}
+.f-form{
+    background-color: var(--grey);
+    padding: 12px;
+    border-radius: 6px;
+}
+#s-btn{
+    background-color: var(--light-purple);
+    color: var(--grey);
+}

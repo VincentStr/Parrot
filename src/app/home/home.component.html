@@ -1,0 +1,41 @@
+<div class="home-grid">
+    <div class="grid-item" id="welcome-item">
+
+        <div class="welcome-header-container">
+            <h2>Welcome To Parrot</h2>
+        </div>
+        <div class="action-container">
+            <button routerLink="/create-set" routerLinkActive="active" ariaCurrentWhenActive="page" mat-button>
+                Create a New Set
+            </button>
+            <button mat-button>Take a Test</button>
+        </div>
+
+
+    </div>
+
+
+    <div *ngIf="UserData" class="grid-item" id="result-item">
+
+        <h2>Results</h2>
+
+        <div class="content-container">
+            <app-result [value]="UserData.scores.last" text="Last Score"></app-result>
+            <app-result [value]="UserData.scores.avg" text="Avg Score"></app-result>
+        </div>
+
+    </div>
+    <div class="grid-item" id="last-item">
+        <h2>Last Tests</h2>
+    </div>
+    <div class="grid-item" id="result-item">
+
+    </div>
+
+    <div class="grid-item" id="last-item">
+
+    </div>
+
+
+
+</div>
